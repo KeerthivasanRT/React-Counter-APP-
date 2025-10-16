@@ -1,0 +1,81 @@
+/* General reset + font setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #101820, #16213e);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Counter container */
+div {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 3rem 5rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+div:hover {
+  transform: translateY(-5px);
+}
+
+/* Title */
+h1 {
+  color: #00ffc6;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px #00ffc6;
+}
+
+/* Counter number */
+.c {
+  font-size: 2.5rem;
+  color: #f0f0f0;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 15px #00bfa6;
+}
+
+/* Buttons */
+button {
+  background: #00ffc6;
+  color: #111;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  background: #00bfa6;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Reset button */
+button:last-child {
+  background: #ff2e63;
+  color: #fff;
+}
+
+button:last-child:hover {
+  background: #ff1744;
+}

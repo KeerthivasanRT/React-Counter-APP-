@@ -5,7 +5,6 @@ function Counter(){
 
             function Increment(){
                 setTask(task+1);
-
             }
 
             function decrement(){
@@ -15,7 +14,6 @@ function Counter(){
             function reset(){
                 setTask(0);
             }
-
 
     return(       
         <div>
